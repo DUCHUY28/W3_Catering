@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+   position: fixed;
+   height: 54.5px;
+   background-color: #fff;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   box-shadow: 0 2px 0 rgba(91, 88, 88, 0.2);
+}
+#header .header_left {
+    line-height: 54.5px;
+    margin-left: 20px;
+    display: inline-block;
+}
+#header .header_left a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+#header .header_left a:hover{
+    background-color: rgb(224, 219, 219);
+}
+
+#header .header_right {
+    float: right;
+    margin-right: 20px;
+    line-height: 54.5px;
+}
+
+#header .header_right a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+#header .header_right a:hover {
+background-color: rgb(224, 219, 219);
+}
+
+
+#Slider {
+    position: relative;
+    padding-top: 50%;
+    background:url(./hamburger.jpg) top center / cover no-repeat;
+}
+#Slider p {
+    display: inline-block;
+    font-size: 36px!important;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    opacity: 0.6;
+}
+
+
+/*About section*/
+#About-section {
+    width: 1100px;
+    height: 778px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px;
+    border-bottom: 2px solid rgba(242, 229, 229, 0.5);
+}
+#About-section .about-left{
+    width:49.999%;
+    float: left;
+    padding: 12px 24px!important;
+    display: inline-block;
+}
+#About-section .about-left img {
+    border-radius: 4px;
+}
+
+#About-section .about-right {
+    width: 49.999%;
+    display:inline-block;
+    padding: 12px 24px!important;
+}
+#About-section .about-right h1,
+#About-section .about-right h3 {
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+
+}
+#About-section .about-right h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+#About-section .about-right h3 {
+    font-size: 18px;
+    margin-top: 50px;
+}
+#About-section .about-right p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    /* font-family: "Times New Roman", Georgia, Serif; */
+}
+#About-section .about-right .opaci {
+    opacity: 0.5;
+}
+
+/*Menu section*/
+#Menu-section {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    border-bottom: 2px solid rgba(242, 229, 229, 0.5);
+}
+#Menu-section .Menu-left {
+    display: inline-block;
+    float: left;
+    width: 49.9999%;
+    padding: 12px 24px!important;
+}
+#Menu-section .Menu-left h1 {
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 36px;
+}
+#Menu-section .Menu-left h2 {
+    font-size: 20px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+#Menu-section .Menu-left h3 {
+    color: #757575!important;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+#Menu-section .Menu-right {
+    display: inline-block;
+    padding: 12px 24px!important;
+}
+#Menu-section .Menu-right img {
+    border-radius: 4px;
+}
+
+/*Contact section*/
+#Contact {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+#Contact h1 {
+    font-size: 36px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+#Contact h4 {
+    font-size: 15px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-weight: 400;
+    margin: 25px 0;
+}
+#Contact h3 {
+    font-family: "Times New Roman", Georgia, Serif;
+    color: #607d8b!important;
+    font-size: 18px!important;
+}
+
+form {
+    display: block;
+}
+form input {
+    display: block;
+    padding: 24px 8px!important;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #ccc; 
+}
+
+#Contact .Contact-btn {
+    background-color: black;
+    color: white;
+    margin-top: 16px!important;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius:4px ;
+    overflow: hidden;
+    box-shadow: 0 15px 0 rgba(242, 229, 229, 0.5);
+    transition: 0.5s;
+    border: none;
+}
+#Contact .Contact-btn:hover {
+background-color: rgba(244, 90, 90, 0.5);
+color: black;
+}
+#Contact .Contact-btn:active {
+    box-shadow: none;
+    transform: translateY(15px);
+}
+
+#Footer {
+    height: 116px;
+    background-color: #f1f1f1;
+}
+#Footer p {
+    text-align: center;
+    line-height: 116px;
+    font-size: 15px;
+}
+
+
+
